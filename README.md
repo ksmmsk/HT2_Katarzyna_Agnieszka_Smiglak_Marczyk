@@ -12,7 +12,7 @@ The tests are implemented in one collection, with each test case in its own fold
 ## Setup
 1. Clone this repository
 2. Navigate to the main project folder
-3. Install newman with `npm install -g newman`
+3. Install dependencies with `npm install`
 
 ## Running test suite
 1. Open the main project folder in terminal
@@ -22,3 +22,5 @@ The tests are implemented in one collection, with each test case in its own fold
     - `npm run testselect 'Upload test'` 
     - `npm run testselect 'Delete test'`
     - `npm run testselect 'Get File Metadata test'`
+3. A command line report is displayed as the tests are being run. Additionally, a html report is generated. To display it, run:
+    - `npm run report`
