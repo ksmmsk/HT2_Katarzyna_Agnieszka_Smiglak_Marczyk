@@ -2,12 +2,12 @@
   "name": "dropbox-api-testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
-    "test": "node ./script/testAll.js",
-    "testupload": "node ./script/testUpload.js",
-    "testdelete": "node ./script/testDelete.js",
-    "testmetadata": "node ./script/testMetadata.js",
+    "test": "node ./script/test.js",
+    "testupload": "node ./script/test.js upload",
+    "testdelete": "node ./script/test.js delete",
+    "testmetadata": "node ./script/test.js metadata",
     "report": "node ./script/openReport.js"
   },
   "keywords": [],
