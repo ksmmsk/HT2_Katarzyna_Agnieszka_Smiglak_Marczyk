@@ -12,7 +12,7 @@ To allow for running from command line, those tests are set-up with a temporary 
 - Node.js and npm installed
 
 ## Setup
-1. Clone this repository
+1. Clone this repository with `git clone git@github.com:ksmmsk/HT2_Katarzyna_Agnieszka_Smiglak_Marczyk.git`
 2. Navigate to the main project folder
 3. Install dependencies with `npm install`
 
