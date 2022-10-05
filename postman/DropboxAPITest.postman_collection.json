@@ -241,7 +241,7 @@
 			"name": "Get File Metadata test",
 			"item": [
 				{
-					"name": "Pre-test set-up: add a file Copy",
+					"name": "Pre-test set-up: add a file",
 					"event": [
 						{
 							"listen": "test",
@@ -357,7 +357,7 @@
 					"response": []
 				},
 				{
-					"name": "Post-test clean-up request: delete the added file Copy",
+					"name": "Post-test clean-up request: delete the added file",
 					"event": [
 						{
 							"listen": "test",
