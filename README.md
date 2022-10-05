@@ -6,7 +6,7 @@ Technologies used:
 - Newman
 The tests are implemented in one collection, with each test case in its own folder to allow for running all the test cases at once or just a selected test case.
 
-To allow for running from command line without end user's having to authenticate their own Dropbox account, those tests are set-up with a temporary Dropbox account I've created just for this purpose.
+To allow for running from command line without end user's having to authenticate their own Dropbox account, those tests are set-up with a temporary Dropbox account I've created just for this purpose. A refresh token is used to generate new access tokens. 
 
 ## Prerequisites
 - Node.js and npm installed
