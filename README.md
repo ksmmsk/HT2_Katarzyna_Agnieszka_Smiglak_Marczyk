@@ -19,10 +19,9 @@ To allow for running from command line without end user's having to authenticate
 ## Running test suite
 1. Open the main project folder in terminal
 2. Run the tests:
-- `npm run test` for all the tests
-- to run one test case:
-    - just upload: `npm run testupload`
-    - just delete: `npm run testdelete`
-    - just getFileMetadata: `npm run testmetadata`
+    - all test cases: `npm run testall`
+    - test just upload: `npm run testupload`
+    - test just delete: `npm run testdelete`
+    - test just getFileMetadata: `npm run testmetadata`
 3. A command line report is displayed as the tests are being run. Additionally, a html report is generated. To display it, run:
     - `npm run report`

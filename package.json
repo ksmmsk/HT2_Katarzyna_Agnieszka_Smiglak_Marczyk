@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "node ./script/test.js",
+    "testall": "node ./script/test.js",
     "testupload": "node ./script/test.js upload",
     "testdelete": "node ./script/test.js delete",
     "testmetadata": "node ./script/test.js metadata",
