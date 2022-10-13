@@ -463,10 +463,15 @@
 					"    }",
 					"}",
 					"",
-					"if (pm.collectionVariables.get('tokenNeeded') === 'true') {",
-					"    auth = new AuthDropbox(pm.collectionVariables.get('APP_KEY'), pm.collectionVariables.get('APP_SECRET'), pm.collectionVariables.get('AUTH_URL'), pm.collectionVariables.get('REFRESH_TOKEN'));",
-					"    auth.getAccessToken();",
-					"} "
+					"const authorize = function () {",
+					"    if (pm.collectionVariables.get('tokenNeeded') === 'true') {",
+					"        authDb = new AuthDropbox(pm.collectionVariables.get('APP_KEY'), pm.collectionVariables.get('APP_SECRET'),",
+					"            pm.collectionVariables.get('AUTH_URL'), pm.collectionVariables.get('REFRESH_TOKEN'));",
+					"        authDb.getAccessToken();",
+					"    } ",
+					"}",
+					"",
+					"authorize();"
 				]
 			}
 		},
